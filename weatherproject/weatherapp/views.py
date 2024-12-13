@@ -1,4 +1,4 @@
-from django.shortcuts import render , HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse('Witaj na moim serwerze')
+    return render(request,'weatherapp/index.html')

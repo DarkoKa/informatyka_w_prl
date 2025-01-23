@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------- start(main) screen and navbar section -------- */
+.myClassMainSection{
+    background: url(img/kaszuby_mainImage.jpg)  no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 55% 45%; 
+}
+.myClassMainScreen{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.myClassNavbar{
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgb(252, 204, 0.9));  
+}
+.myClassNavLink{
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 100;
+    transition: 0.2s;
+} 
+.myClassNavLink:hover{
+    font-size: 25px;
+}
+
+/* class to Search batton */
+.myClassSearchText{ 
+    height: 30px;
+    width:100%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -45px;
+    outline: none;
+}
+.myClassSearchBtn{
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
+    color: #FFC000;
+    background-color: #000000;
+    border: 2px solid #FFC000;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
+}
+
+
+/* --------- "Historia" section ---------- */
+.card{
+    border: none;
+    border-radius: 0;
+}
+.card-img-top{   
+height: 24em;
+object-fit: contain;
+border-radius: 0 !important;
+}
+/* .card-img-top, .card-body{ 
+    border: 0px solid #ffffff;
+}*/
+.myRowStyle{
+    padding-right: 0;
+    padding-left: 0;
+}
+.card-body{
+    height: 6em;
+    background-color: #FFC000;
+    border-color: #ffffff;
+ 
+}
+ .myCardHover{ 
+    opacity: 1;
+    transition: 0.4s;
+}
+.myCardHover:hover{    
+    opacity: 0.8;
+}
+
+/* +++ Kontankt section +++ */
+.myStyleSection{
+    color: #FFC000;
+    font-size: 18px;
+    /* background-color: #000000; */
+
+}
+.myStyleWyslijButton{
+    color: #000000;
+    width: 70px;
+    height: 40px;
+    background-color: #FFC000;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.myStyleWyslijButton:hover{
+    width: 75px;
+}
+
+
+/* ======== media queries ========
+================================ */
+
+/* media queries to ? section */
+@media(max-width: 992px){
+    .leftDiv{
+        display: none;
+    }
+}
+
+/* media queries to "Historia" main screen */
+@media(max-width: 1200px){
+    .card-body{
+        height: 13rem;
+    }
+}
+@media(max-width: 992px){
+    .card-body{
+        height: 10rem;
+    }
+}
+@media(max-width: 768px){ 
+    .card-body{
+            height: 12rem;
+        }
+    }
+@media(max-width: 576px){ 
+    .card-body{
+        height: 8rem;
+    }
+}
+
+
+/* class to Search batton [temporary closed] */
+/* .myClassSearchText{ 
+    height: 30px;
+    width: 70%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -25px;
+    outline: none;
+}
+.myClassSearchBtn{
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
+    color: #FFC000;
+    background-color: #000000;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
+}*/
+
+
+/*  +++ main section: (background image, main title) +++ 
+.styleTextMainSection{ 
+    color: #ffffff;
+    line-height: 2.5rem;
+    text-shadow: #000000 4px 4px 6px;
+    background: rgba(84, 163, 5, 0.3);
+    /* background: linear-gradient(to top, rgba(196, 154, 13, 0.2), rgb(252, 204, 0.2));
+}*/

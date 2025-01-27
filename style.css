@@ -9,17 +9,17 @@ a{
 
 /* -------- start(main) screen and navbar section -------- */
 .myClassMainSection{
-    background: url(img/kaszuby_mainImage.jpg)  no-repeat; 
+    background: url(img/main_image_start_site.jpg)  no-repeat; 
     background-size: cover;
     height: 100vh;
     width: 100%;
-    background-position: 55% 45%; 
+    background-position: 45% 35%; 
 }
 .myClassMainScreen{
     background-color:rgba(0, 0, 0, 0.5);
 }
 .myClassNavbar{
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgb(252, 204, 0.9));  
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.863));  
 }
 .myClassNavLink{
     color: #ffffff !important;

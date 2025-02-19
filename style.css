@@ -19,7 +19,7 @@ a{
     background-color:rgba(0, 0, 0, 0.5);
 }
 .myClassNavbar{
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));  
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));  
 }
 .myClassNavLink{
     color: #ffffff !important;
@@ -63,7 +63,7 @@ a{
 }
 .card-img-top{   
 height: 24em;
-object-fit: contain;
+object-fit: cover;
 border-radius: 0 !important;
 }
 /* .card-img-top, .card-body{ 
@@ -76,7 +76,11 @@ border-radius: 0 !important;
 .card-body{
     height: 6em;
     background-color: #FFC000;
-    border-color: #ffffff;
+}
+.card-body2{
+    height: 6em;
+    background-color: #000000;
+    color: #FFC000;
 }
  .myCardHover{ 
     opacity: 1;

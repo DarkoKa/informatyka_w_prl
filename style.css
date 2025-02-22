@@ -81,6 +81,7 @@ border-radius: 0 !important;
     height: 6em;
     background-color: #000000;
     color: #FFC000;
+    padding-top: 30px;
 }
  .myCardHover{ 
     opacity: 1;
